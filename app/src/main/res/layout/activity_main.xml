@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="frasedodia.wton.com.frasedodia.MainActivity"
+    android:background="#3e225e">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/frase_do_dia"
+        android:id="@+id/botaoID"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/fraseID"
+        android:layout_marginTop="63dp"
+        android:layout_below="@+id/botaoID"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/botaoID"
+        android:textSize="@dimen/frase_do_dia"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

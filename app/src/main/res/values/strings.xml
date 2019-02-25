@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">frase do dia</string>
+    <string name="frase_do_dia">Nova Frase</string>
+    <string name="texto_frase_do_dia">40sp</string>
+</resources>
